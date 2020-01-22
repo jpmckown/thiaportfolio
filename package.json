@@ -1,0 +1,30 @@
+{
+  "name": "thiasportfolio-inferno",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "inferno": "^7.3.3",
+    "inferno-scripts": "7.0.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "scripts": {
+    "start": "inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test",
+    "eject": "inferno-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "inferno-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

@@ -1,2 +1,2 @@
 # thiaportfolio
-thia's portfolio soure
+thia's portfolio source
