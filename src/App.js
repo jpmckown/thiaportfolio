@@ -7,7 +7,7 @@ import cards from './data/cards.json';
 class App extends Component {
   render() {
     return (
-      <div className="App container">
+      <div className="App">
         <div className="row">
           <div className="col-sm-12">
             <Header />

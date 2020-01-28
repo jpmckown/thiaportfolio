@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <section name="header-section">
                 <header name="intro">
-                    <div class="container header" aria-describedby="header-intro">
+                    <div class="header" aria-describedby="header-intro">
                         <p name="header-intro" class="hidden" aria-hidden="true">Welcome to Thia Penta's Portfolio</p>
                         <div className="d-flex flex-wrap flex-md-row flex-column-reverse header-shift">
                             <div className="py-2 col-md-6 col-sm-12">

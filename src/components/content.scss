@@ -1,0 +1,22 @@
+.card-sized {
+    width: 43rem;
+    margin: 1rem 0;
+}
+.cards-container {
+    margin: 1rem 0;
+    div.card-sized:first-child() {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    div.card-sized:last-child() {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
+.image-cram {
+    width: 100%;
+    margin: 1rem 0;
+}
+.spacer {
+    height: 2rem;
+}

@@ -3,7 +3,12 @@
         "title": "Card One",
         "type": "image",
         "image": "https://via.placeholder.com/180",
-        "description": "Card One Description"
+        "description": "Card One Description",
+        "link": {
+            "target": "_blank",
+            "url": "#",
+            "text": "example button"
+        }
     },
     {
         "title": "Card Two",
@@ -21,6 +26,11 @@
         "title": "Card Four",
         "type": "image",
         "image": "https://via.placeholder.com/180",
-        "description": "Card Four Description"
+        "description": "Card Four Description",
+        "link": {
+            "target": "_blank",
+            "url": "#",
+            "text": "example button"
+        }
     }
 ]

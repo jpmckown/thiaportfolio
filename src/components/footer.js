@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <section name="heafooter-section">
                 <footer name="outro">
-                    <div class="container footer" aria-describedby="footer-outro">
+                    <div class="footer" aria-describedby="footer-outro">
                         <p name="footer-outro" class="hidden" aria-hidden="true">Welcome to Thia Penta's Portfolio</p>
                         <div className="d-flex flex-wrap flex-md-row flex-column-reverse footer-shift">
                             <div className="py-2 col-md-6 col-sm-12">
