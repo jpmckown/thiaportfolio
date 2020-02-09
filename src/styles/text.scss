@@ -1,0 +1,350 @@
+@font-face {
+  font-family: AvenirNext;
+  src: local(AvenirNext-Medium),
+    url(/fonts/AvenirNext-Medium.woff2) format("woff2"),
+    url(/fonts/AvenirNext-Medium.woff) format("woff"),
+    url(/fonts/AvenirNext-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src: local(AvenirNext-DemiBold),
+    url(/fonts/AvenirNext-DemiBold.woff2) format("woff2"),
+    url(/fonts/AvenirNext-DemiBold.woff) format("woff"),
+    url(/fonts/AvenirNext-DemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src: local(AvenirNext-Bold), url(/fonts/AvenirNext-Bold.woff2) format("woff2"),
+    url(/fonts/AvenirNext-Bold.woff) format("woff"),
+    url(/fonts/AvenirNext-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src: local(AvenirNext-Heavy),
+    url(/fonts/AvenirNext-Heavy.woff2) format("woff2"),
+    url(/fonts/AvenirNext-Heavy.woff) format("woff"),
+    url(/fonts/AvenirNext-Heavy.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.H1---Cream {
+  font-family: AvenirNext;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: $off-white;
+}
+
+.H1---Dark {
+  font-family: AvenirNext;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+.H2---Dark {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+.H2---Dark-Beige {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $army-green;
+}
+
+.H2---Dark-Blue {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $dark-green-blue-two;
+}
+
+.H2---Dark-Green {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $dark-green-blue;
+}
+
+.H2---Dark-Red {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $red-brown;
+}
+
+.H2---Cream {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $off-white;
+}
+
+.H2---Dark-Yellow {
+  font-family: AvenirNext;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: $mud-brown;
+}
+
+.H3---Dark {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+.H3---Dark-Beige {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $army-green;
+}
+
+.H3---Dark-Blue {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $dark-green-blue-two;
+}
+
+.H3---Dark-Green {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $dark-green-blue;
+}
+
+.H3---Cream {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $off-white;
+}
+
+.H3---Dark-Yellow {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $mud-brown;
+}
+
+.H3---Dark-Red {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $red-brown;
+}
+
+.Paragraph---Cream {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: $off-white;
+}
+
+.Paragraph---Dark-Beige {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $army-green;
+}
+
+.Paragraph---Dark-Beige-Link {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $army-green;
+}
+
+.Paragraph---Dark-Blue {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $dark-green-blue-two;
+}
+
+.Paragraph---Dark-Blue-Link {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $dark-green-blue-two;
+}
+
+.Paragraph---Dark {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+.Paragraph---Dark-Green-Link {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $dark-green-blue;
+}
+
+.Paragraph---Dark-Red {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $red-brown;
+}
+
+.Paragraph---Dark-Red-Link {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $red-brown;
+}
+
+.Paragraph---Dark-Yellow {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $mud-brown;
+}
+
+.Paragraph---Dark-Yellow-Link {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $mud-brown;
+}
+
+.Paragraph---Dark-Green {
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $dark-green-blue;
+}

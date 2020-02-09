@@ -1,5 +1,6 @@
+@import "../styles/variables"; 
+
 .card-sized {
-    width: 43rem;
     margin: 1rem 0;
 }
 .cards-container {
@@ -20,3 +21,28 @@
 .spacer {
     height: 2rem;
 }
+
+@mixin theme-variant($name, $bgcolor, $color) {
+    .#{$name}-theme {
+        background-color: $bgcolor;
+        color: $color;
+    }
+    .btn-theme-#{$name} {
+        background-color: $color;
+        border-radius: 20px;
+        color: $off-white;
+        font-family: AvenirNext;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+    }
+}
+
+@include theme-variant('pale', $pale, $mud-brown);
+@include theme-variant('ice', $ice, $dark-green-blue);
+@include theme-variant('very-light-pink', $very-light-pink, $red-brown);
+@include theme-variant('ice-two', $ice, $dark-green-blue-two);
+@include theme-variant('pale-two', $pale-two, $army-green);

@@ -1,36 +1,82 @@
 [
     {
-        "title": "Card One",
+        "title": "Lululemon - Online Returns",
+        "heading": "Responsive Website Feature Redesign",
         "type": "image",
         "image": "https://via.placeholder.com/180",
-        "description": "Card One Description",
+        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "cardTheme": {
+            "name": "pale",
+            "color": "Dark Yellow"
+        },
         "link": {
             "target": "_blank",
             "url": "#",
-            "text": "example button"
+            "text": "Lululemon - Return Prototype"
         }
     },
     {
-        "title": "Card Two",
+        "title": "AWS - Wisdom - Resource Hub",
+        "heading": "Responsive Website Redesign",
         "type": "image",
         "image": "https://via.placeholder.com/180",
-        "description": "Card Two Description"
-    },
-    {
-        "title": "Card Three",
-        "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "Card Three Description"
-    },
-    {
-        "title": "Card Four",
-        "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "Card Four Description",
+        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
         "link": {
             "target": "_blank",
             "url": "#",
-            "text": "example button"
+            "text": "AWS Wisdom - Coming Soon"
+        },
+        "cardTheme": {
+            "name": "ice",
+            "color": "Dark Green"
+        }
+    },
+    {
+        "title": "Costco Wholesale - Online Pick Up",
+        "heading": "Responsive Website Added Feature",
+        "type": "image",
+        "image": "https://via.placeholder.com/180",
+        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "cardTheme": {
+            "name": "ice-two",
+            "color": "Dark Blue"
+        },
+        "link": {
+            "target": "_blank",
+            "url": "#",
+            "text": "Costco - BOPIW Case Study"
+        }
+    },
+    {
+        "title": "Lululemon - BOPIS",
+        "heading": "Responsive Website Added Feature",
+        "type": "image",
+        "image": "https://via.placeholder.com/180",
+        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "cardTheme": {
+            "name": "very-light-pink",
+            "color": "Dark Red"
+        },
+        "link": {
+            "target": "_blank",
+            "url": "#",
+            "text": "Global Dog Case Study"
+        }
+    },
+    {
+        "title": "Global Dog",
+        "heading": "Mobile App iOS",
+        "type": "image",
+        "image": "https://via.placeholder.com/180",
+        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "cardTheme": {
+            "name": "pale-two",
+            "color": "Dark Beige"
+        },
+        "link": {
+            "target": "_blank",
+            "url": "#",
+            "text": "Global Dog Case Study"
         }
     }
 ]

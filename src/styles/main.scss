@@ -1,12 +1,22 @@
 $body-bg: #fff;
 $body-color: #3b344b;
 
+@import "./variables";
+
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/bootstrap-grid";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/transitions";
 @import "~bootstrap/scss/card";
 @import "~bootstrap/scss/buttons";
+@import "./text";
+
+body {
+    font-family: AvenirNext;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
 
 .hidden {
     display: none;
