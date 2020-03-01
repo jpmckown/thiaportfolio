@@ -14,12 +14,33 @@
         margin-bottom: 0;
     }
 }
+.image {
+    @media (min-width: 1280px) {
+        max-width: 512px;
+        max-height: 370px;
+    }
+    @media (min-width: 1024px) {
+        max-width: 384px;
+        max-height: 278px;
+    }
+    @media (min-width: 768px) {
+        max-width: 304px;
+        max-height: 220px;
+    }
+    @media (max-width: 768px) {
+        max-width: 256px;
+        max-height: 185px;
+    }
+}
 .image-cram {
     width: 100%;
     margin: 1rem 0;
 }
 .spacer {
     height: 2rem;
+}
+.bump-up {
+    margin-top: -10rem;
 }
 
 @mixin theme-variant($name, $bgcolor, $color) {

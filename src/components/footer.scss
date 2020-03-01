@@ -1,0 +1,15 @@
+.copyright {
+    width: 135px;
+    height: 32px;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    color: var(--dark);
+}
+
+.footer-bump-up {
+    @media (min-width: 768px) {
+        margin-top: -20.5rem;
+    }
+}

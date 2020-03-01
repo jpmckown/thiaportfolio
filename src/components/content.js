@@ -45,13 +45,16 @@ class Card extends Component {
     render({ card, classes }) {
         return (
             <div className={classes}>
-                <div className={classNames("card-body", `${ get(card, 'cardTheme.name', 'Dark') }-theme` )}>
+                <div className={classNames("card-body", `${ get(card, 'cardTheme.name', 'Dark') }-theme`, 'p-4' )}>
                     <p className={classNames("card-title", `H2---${get(card, 'cardTheme.color', 'Dark').replace(' ', '-')}`)}>{card.title}</p>
                     <p className={classNames(`H3---${get(card, 'cardTheme.color', 'Dark').replace(' ', '-')}`)}>{card.heading}</p>
                     <p className="card-text" dangerouslySetInnerHTML={{ __html: card.description }}></p>
-                    <img className="image-cram" src={card.image} alt="this card's beautiful" />{
+                    <div className="image-cram">
+                        <img className="image" src={card.image} srcSet={card.srcset} alt="this card's beautiful" />
+                    </div>
+                    {
                         (card.link) ? (
-                            <a className={classNames('btn', 'btn-lg', 'btn-card', `btn-theme-${ get(card, 'cardTheme.name', 'Dark') }`)} role="button" aria-disabled="true" href={card.link.url} traget={card.link.target}>{card.link.text}</a>
+                            <a className={classNames('btn', 'btn-lg', 'btn-card', `btn-theme-${ get(card, 'cardTheme.name', 'Dark') }`, 'rounded-pill')} role="button" aria-disabled="true" href={card.link.url} target={card.link.target}>{card.link.text}</a>
                         ) : (
                                 <div className="spacer" aria-disabled="true"></div>
                             )
@@ -86,8 +89,12 @@ class Content extends Component {
         for (let idx = 0; idx < cards.length; idx += 2) {
             const slicd = cards.slice(idx, idx + 2);
             pairs.push(slicd);
-            evens.push(slicd[0]);
-            if (slicd.length > 1) odds.push(slicd[1]);
+            if (slicd.length > 1) {
+                evens.push(slicd[0]);
+                odds.push(slicd[1]);
+            } else {
+                odds.push(slicd[0]);
+            }
         }
         return (
             <section name="content">
@@ -106,14 +113,14 @@ class Content extends Component {
                     <div className="col-md-6">
                         {
                             evens.map(card => {
-                                return (<Card card={card} classes="card card-sized" />)
+                                return (<Card card={card} classes="card card-sized border-0" />)
                             })
                         }
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 bump-up">
                         {
                             odds.map(card => {
-                                return (<Card card={card} classes="card card-sized" />)
+                                return (<Card card={card} classes="card card-sized border-0" />)
                             })
                         }
                     </div>

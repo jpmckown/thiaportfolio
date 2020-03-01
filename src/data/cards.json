@@ -3,8 +3,11 @@
         "title": "Lululemon - Online Returns",
         "heading": "Responsive Website Feature Redesign",
         "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "image": "/assets/lll-online-returns/return-copy.png",
+        "srcset": [
+
+        ],
+        "description": "Returning a product is inherently a bad experience, but this could result in customer confidence in the brand with an easy and enjoyable possess in making a return. Lululemon is striving to create an online experience with the ease of in-store returns by having an online returns portal. Originally featured on the site in 2012, the feature was nearly forgotten about. With inline style and best practices, we created a faster and more user-friendly experience.",
         "cardTheme": {
             "name": "pale",
             "color": "Dark Yellow"
@@ -19,8 +22,8 @@
         "title": "AWS - Wisdom - Resource Hub",
         "heading": "Responsive Website Redesign",
         "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "image": "https://via.placeholder.com/512x370",
+        "description": "The Resource Hub is a microsite inside of AWS's internal source tool Wisdom. This provides a “one-stop-shop” for sales team members to learn information on the services they are selling. The templated design allows for cohesive and organized layouts for content owners to create easy to read and scannable pages. ",
         "link": {
             "target": "_blank",
             "url": "#",
@@ -35,8 +38,8 @@
         "title": "Costco Wholesale - Online Pick Up",
         "heading": "Responsive Website Added Feature",
         "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "image": "https://via.placeholder.com/512x370",
+        "description": "Purchasing high ticket items from a website could feel a bit questionable when it comes to shipping. People may think; “I don’t know if I will be able to be home” or “what if someone steals it”. Costco wanted to provide its customers with an option to buy online and pick up at the warehouse to alleviate these worries, cut shipping cost and also help the customer to avoid long lines at the checkout. ",
         "cardTheme": {
             "name": "ice-two",
             "color": "Dark Blue"
@@ -51,7 +54,7 @@
         "title": "Lululemon - BOPIS",
         "heading": "Responsive Website Added Feature",
         "type": "image",
-        "image": "https://via.placeholder.com/180",
+        "image": "/assets/lll-bopis/lululemon-bopis-2-copy.png",
         "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
         "cardTheme": {
             "name": "very-light-pink",
@@ -60,15 +63,15 @@
         "link": {
             "target": "_blank",
             "url": "#",
-            "text": "Global Dog Case Study"
+            "text": "Lululemon - Return Prototype"
         }
     },
     {
         "title": "Global Dog",
         "heading": "Mobile App iOS",
         "type": "image",
-        "image": "https://via.placeholder.com/180",
-        "description": "In the ever growing, fast-paced world of e-commerce, buy online/pick up in-store features are becoming increasingly popular, providing the customer with choice, speed, and demand. <br />Lululemon wanted to provide their guest with this opportunity and grow the connection from e-commerce to the beloved in-store experience.",
+        "image": "https://via.placeholder.com/512x370",
+        "description": "A social media mobile app that connects dog lovers to dog only content in a fun and communal way. By allowing the users to view, post, and contribute to the apps global network, the user will be able to connect with their community as well as other dog lovers.",
         "cardTheme": {
             "name": "pale-two",
             "color": "Dark Beige"
